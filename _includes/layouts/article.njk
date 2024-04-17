@@ -3,7 +3,7 @@ layout: layouts/base.njk
 ---
 <h1>{{ title }}</h1>
 
-<div class="post-metadata">
+<div class="post-metadata" style="font-style: italic;">
 	article mis à jour le <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
 	{# {%- for tag in tags | filterTagList %} #}
 	{# {%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
@@ -13,7 +13,7 @@ layout: layouts/base.njk
 
 {{ content | safe }}
 
-{%- if collections.articles %}
+{# {%- if collections.articles %}
 {%- set previousPost = collections.articles | getPreviousCollectionItem %}
 {%- set nextPost = collections.articles | getNextCollectionItem %}
 {%- if nextPost or previousPost %}
@@ -22,4 +22,4 @@ layout: layouts/base.njk
 	{%- if nextPost %}<li>Suivant: <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a></li>{% endif %}
 </ul>
 {%- endif %}
-{%- endif %}
+{%- endif %} #}

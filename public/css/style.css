@@ -91,7 +91,7 @@ footer {
 
 body {
   box-sizing: border-box;
-  min-height: 100dvh;
+  min-height: 101dvh;
   display: flex;
   flex-direction: column;
   padding-bottom: 0;

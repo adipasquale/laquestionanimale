@@ -21,7 +21,7 @@
 			<h1>{{ metadata.title }}</h1>
 			<h2 class="visually-hidden">Menu principal</h2>
 			<nav>
-				{%- for entry in collections.all | eleventyNavigation %}
+				{%- for entry in collections.topLevelPages | eleventyNavigation %}
 					{% if entry.url == page.url %}
 						<span>{{entry.title}}</span>
 					{% else %}
@@ -40,5 +40,7 @@
 		<footer></footer>
 
 		<!-- This page `{{ page.url | htmlBaseUrl }}` was built on {% currentBuildDate %} -->
+
+		{% mermaid_js %}
 	</body>
 </html>

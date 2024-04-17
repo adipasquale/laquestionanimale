@@ -1,6 +1,9 @@
 ---
 title: Les poissons
 date: 2024-03-21
+eleventyNavigation:
+  key: poissons
+  parent: Les Animaux
 ---
 
 Chaque année environ 1500 milliards de poissons sont tués à travers le monde.

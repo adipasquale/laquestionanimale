@@ -1,0 +1,15 @@
+---
+layout: layouts/base.njk
+---
+
+{{ content | safe }}
+
+<h2>Table des matières</h2>
+
+{%- for entry in collections.topSections | eleventyNavigation %}
+  <li>
+    <a href="{{ entry.url }}">
+      {{ entry.title }}
+    </a>
+  </li>
+{%- endfor %}
