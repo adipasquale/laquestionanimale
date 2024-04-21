@@ -1,5 +1,5 @@
 ---
-layout: layouts/base.njk
+layout: default
 eleventyNavigation:
   title: A propos
   key: A propos

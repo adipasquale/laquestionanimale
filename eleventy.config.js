@@ -126,9 +126,7 @@ module.exports = function (eleventyConfig) {
 		dir: {
 			input: "11ty_input",
 			output: "11ty_output",
-			includes: "../_includes",  // default: "_includes"
-			data: "../_data"          // default: "_data"
-
+			layouts: "_layouts"
 		},
 
 		// -----------------------------------------------------------------
