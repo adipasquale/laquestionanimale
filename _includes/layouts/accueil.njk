@@ -6,10 +6,9 @@ layout: layouts/base.njk
 
 <h2>Table des matières</h2>
 
-{%- for entry in collections.topSections | eleventyNavigation %}
-  <li>
-    <a href="{{ entry.url }}">
-      {{ entry.title }}
-    </a>
-  </li>
-{%- endfor %}
+{% from "table_of_contents.njk" import renderNavListItem %}
+
+{% set navPages = collections.all | eleventyNavigation %}
+<ul>
+  {%- for entry in navPages %}{{ renderNavListItem(entry) }}{%- endfor -%}
+</ul>

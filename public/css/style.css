@@ -30,7 +30,7 @@ img {
 
 /* HEADER */
 
-header {
+header .row {
   display: flex;
   gap: 2rem;
   flex-wrap: wrap;
@@ -114,8 +114,8 @@ mark {
   }
 }
 
-main a:not([href^="/"])::after,
-footer p a:not([href^="/"])::after {
+main a:not([href^="/"]):not([href^="#"])::after,
+footer p a:not([href^="/"]):not([href^="#"])::after {
   content: ' ↗';
   display: inline;
 }
@@ -128,4 +128,39 @@ footer p a:not([href^="/"])::after {
 
 .visually-hidden{
   display: none;
+}
+
+/* BREADCRUMBS */
+
+.breadcrumbs {
+  display: flex;
+  gap: .5rem;
+  font-size: 0.9rem;
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: .5rem;
+    flex-wrap: wrap;
+
+    li {
+      display: inline;
+      margin: 0;
+      padding: 0;
+    }
+    li:not(:last-child)::after {
+      content: '>';
+      margin: 0 0 0 .5rem ;
+    }
+  }
+}
+
+/* MERMAID GRAPHS */
+
+@media (prefers-color-scheme: dark) {
+  .mermaid svg text {
+    fill: white !important;
+  }
 }

@@ -1,11 +1,9 @@
 ---
-title: La nature
 date: 2024-03-21
-tags:
-  - topSections
 eleventyNavigation:
-  key: La nature
-  order: 2
+  title: La nature
+  key: nature
+  order: 3
 ---
 
 ## Différence entre nature et état sauvage

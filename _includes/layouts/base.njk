@@ -17,26 +17,33 @@
 	<body>
 
 		<header>
-			<a href="#skip" class="visually-hidden">Aller au contenu principal</a>
-			<h1>{{ metadata.title }}</h1>
-			<h2 class="visually-hidden">Menu principal</h2>
-			<nav>
-				{%- for entry in collections.topLevelPages | eleventyNavigation %}
-					{% if entry.url == page.url %}
-						<span>{{entry.title}}</span>
-					{% else %}
-						<a href="{{ entry.url }}">
-							{{ entry.title }}
-						</a>
-					{% endif %}
-				{%- endfor %}
-			</nav>
+			<div class="row">
+				<a href="#skip" class="visually-hidden">Aller au contenu principal</a>
+				<h1>{{ metadata.title }}</h1>
+				<h2 class="visually-hidden">Menu principal</h2>
+				<nav>
+					{%- for entry in collections.topLevelPages | eleventyNavigation %}
+						{% if entry.url == page.url %}
+							<span>{{entry.title}}</span>
+						{% else %}
+							<a href="{{ entry.url }}">
+								{{ entry.title }}
+							</a>
+						{% endif %}
+					{%- endfor %}
+				</nav>
+			</div>
+			{% if page.url != "/" %}
+				{% include "breadcrumbs.njk" %}
+			{% endif %}
 		</header>
 
 		<main id="skip">
 			{{ content | safe }}
 		</main>
 
+		<div class="post-metadata" style="font-style: italic;">
+			page mise à jour le <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
 		<footer></footer>
 
 		<!-- This page `{{ page.url | htmlBaseUrl }}` was built on {% currentBuildDate %} -->

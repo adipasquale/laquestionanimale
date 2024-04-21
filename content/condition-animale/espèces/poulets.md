@@ -1,14 +1,14 @@
 ---
-title: Les poulets 🐓
 date: 2024-03-21
 eleventyNavigation:
   key: poulets
-  parent: Les Animaux
+  title: Les poulets 🐓
+  parent: condition-animale-par-espece
 ---
 
 ℹ️ Cette page évoque les poulets élevés pour leur viande, une autre page évoque les poules pondeuses.
 
-Chaque année en France près de 700 millions de poulets sont élevés et tués (1).
+Chaque année en France près de 700 millions de poulets sont élevés et tués [^agreste].
 C’est de loin l’espèce terrestre la plus exploitée en nombre d’individus en France et dans le monde.
 
 En France, 84% des poulets sont élevés en bâtiment fermé sans accès à l’extérieur.
@@ -31,9 +31,10 @@ Pourcentage | 72% | 7% | 14%
 Âge d’abattage minimum | 35 jours | 58 jours | 85 jours
 Espace par poulet minimum | < 1 feuille A4 | ~1 feuille A4 | < 1 feuille A3
 
-Source ANVOL (2) · le label Grand Export n’est pas affiché ici car les poulets ne sont pas consommés en France.
+Source ANVOL [^anvol] · le label Grand Export n’est pas affiché ici car les poulets ne sont pas consommés en France.
 
-Plus de 80% des poulets élevés en France n’ont aucun accès à l’extérieur et ont moins d’une feuille A4 d’espace disponible (sources 2 et 3).
+Plus de 80% des poulets élevés en France n’ont aucun accès à l’extérieur et ont moins d’une feuille A4 d’espace disponible
+[^anvol][^3].
 
 Le taux de mortalité durant les 35 jours dans les élevages Standard atteint quasiment 4%.
 
@@ -68,8 +69,8 @@ C’est cependant nettement plus élevé que quasiment tous les aliments végét
 
 ## Sources
 
-- [(1) Ministère de l’Agriculture - AGRESTE - Statistique agricole annuelle 2022 Chiffres définitifs](https://agreste.agriculture.gouv.fr/agreste-web/download/publication/publie/Chd2319/cd2023-19_SAA2022-D%C3%A9finitive.pdf)
-- [(2) ANVOL - Interprofession Volailles de Chair - Dossier de presse Février 2024](https://www.l214.com/wp-content/uploads/2024/03/DP_ANVOL_FEVRIER2024_val.pdf)
+[^agreste]: [Ministère de l’Agriculture - AGRESTE - Statistique agricole annuelle 2022 Chiffres définitifs](https://agreste.agriculture.gouv.fr/agreste-web/download/publication/publie/Chd2319/cd2023-19_SAA2022-D%C3%A9finitive.pdf)
+[^anvol]: [ ANVOL - Interprofession Volailles de Chair - Dossier de presse Février 2024](https://www.l214.com/wp-content/uploads/2024/03/DP_ANVOL_FEVRIER2024_val.pdf)
 - [(3) Mon Quotidien Autrement - Quel Poulet dans mon Assiette ? (2021) - Tableau des conditions des labels](https://www.monquotidienautrement.com/wp-content/uploads/2021/01/2021-quel-poulet-dans-mon-assiette.pdf)
 - [(4) ADEME - Agribalyse - Poulet éviscéré sans abats, cru](https://agribalyse.ademe.fr/app/aliments/36020#Poulet_%C3%A9visc%C3%A9r%C3%A9_sans_abats,_cru)
 

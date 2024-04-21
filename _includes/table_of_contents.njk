@@ -1,0 +1,12 @@
+{# from https://www.11ty.dev/docs/plugins/navigation/#bring-your-own-html-render-the-menu-items-manually #}
+
+{% macro renderNavListItem(entry) -%}
+<li{% if entry.url == page.url %} class="my-active-class"{% endif %}>
+  <a href="{{ entry.url }}">{{ entry.title }}</a>
+{%- if entry.children.length -%}
+  <ul>
+    {%- for child in entry.children %}{{ renderNavListItem(child) }}{% endfor -%}
+  </ul>
+{%- endif -%}
+</li>
+{%- endmacro %}

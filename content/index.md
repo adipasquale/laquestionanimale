@@ -8,12 +8,9 @@ tags:
   - topLevelPages
 ---
 
-Les animaux ressentent la douleur, ont conscience d’eux-mêmes et ont une volonté intrinsèque de vivre.
+Chaque année en France nous pêchons plus de 2 milliards de poissons sauvages, et élevons et abattons près d’un milliard d’animaux dont près de 80% de poulets.
 
-Nous exploitons et tuons chaque année **plusieurs milliers de miliards d’animaux**.
+Tous ces animaux ressentent la douleur, ont conscience d’eux-mêmes et ont un intérêt à ne pas mourir.
 
-Or, l’humain a les moyens de subvenir à ses besoins nutritifs, vestimentaires etc… en épargnant la vaste majorité de ces animaux.
-
-Vraiment ? Pourquoi ? Comment pourrions-nous faire autrement ?
-
+Quasiment toutes les françaises et français peuvent pourtant subvenir à leurs besoins en épargnant la vie de ces animaux.
 
