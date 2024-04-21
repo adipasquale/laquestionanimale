@@ -1,35 +1,22 @@
 ---
 date: 2024-03-21
 eleventyNavigation:
-  title: La condition animale
+  title: La condition animale en France
   key: condition-animale
-  order: 1
+  order: 2
 ---
 
 
-## Nombre et répartition des animaux exploités
+## Nombre d’animaux exploités
 
 <!-- Chaque année dans le monde, 7 milliards d’humains pêchent 1600 milliards de poissons et abattent 83 milliards d’animaux terrestres dont 90% de poulets [^ourworldindata]. -->
 
-*Tous les chiffres ci-dessous sont arrondis*
+<!-- *Tous les chiffres ci-dessous sont arrondis* -->
 
-Chaque année en France nous pêchons plus de 2 milliards de poissons sauvages, et élevons et abattons plus de 930 millions d’animaux dont près de 80% de poulets [^ourworldindata].
+Chaque année en France nous pêchons plus de 2 milliards de poissons sauvages, et élevons et abattons près d’1 milliard d’animaux. [^ourworldindata]
 
-```mermaid
-%%{init: {"themeVariables": {"pieTitleTextSize": "14px"}}}%%
-pie showData title Animaux élevés et abattus en France chaque année (en millions)
-  "poulets" : 734
-  "poissons d'élevage" : 80
-  "cochons": 23
-  "dindes, oies et autres oiseaux" : 35
-  "canards" : 39
-  "autres animaux": 25
-```
+Parmi ce quasi milliard d’animaux élevés et abattus chaque année en France, près de 80% sont des poulets et 10% sont des poissons. [^ourworldindata] La répartition détaillée est disponible sur la [page par espèce](/condition-animale/espèces/)
 
-Parmi les autres animaux, on élève et abat chaque année en France :
-- 16 millions de lapins soit 2%
-- 4.5 millions de vaches soit 0,4%
-- 4.5 millions de moutons et chèvres soit 0,4% [^ourworldindata]
 
 
 ## Conditions d’exploitation
@@ -37,7 +24,7 @@ Parmi les autres animaux, on élève et abat chaque année en France :
 Quasiment tous les animaux élevés aujourd’hui résultent d’une longue sélection génétique optimisée pour augmenter la quantité de viande et diminuer les coûts d’élevage.
 Ces animaux ont une espérance de vie nettement inférieure aux espèces sauvages et sont souvent incapables de se reproduire.
 
-Environ 70% des animaux en France subissent un élevage intensif, ils n’ont aucun accès à l’extérieur et ont peu d’espace [^l214souffrance]. Quasiment tous les lapins, plus de 95% des cochons et des dindes et 84% des poulets sont élevés dans ces conditions intensives.
+Environ 70% des animaux en France subissent un élevage intensif : ils n’ont aucun accès à l’extérieur et ont peu d’espace [^l214souffrance]. Quasiment tous les lapins, plus de 95% des cochons et des dindes et 84% des poulets sont élevés dans ces conditions intensives.
 
 Lors de l’abattage et du transport, les animaux subissent énormément de stress et de peur.
 Les animaux sont fréquemment pendus par les pieds, dépecés et abattus alors qu’ils sont encore conscients.

@@ -4,16 +4,14 @@ eleventyNavigation:
   key: poulets
   title: Les poulets 🐓
   parent: condition-animale-par-espece
+  order: 1
 ---
 
-ℹ️ Cette page évoque les poulets élevés pour leur viande, une autre page évoque les poules pondeuses.
+ℹ️ On parle ici des poulets élevés pour leur viande, pas des [poules pondeuses](/condition-animale/espèces/poules-pondeuses).
 
-Chaque année en France près de 700 millions de poulets sont élevés et tués [^agreste].
-C’est de loin l’espèce terrestre la plus exploitée en nombre d’individus en France et dans le monde.
+Plus de 700 millions de poulets sont élevés et tués chaque année en France [^ourworldindata].
+Cela représente près de 80% des animaux exploités en France (sans compter la pêche), et ce pourcentage est similaire dans le monde entier.
 
-En France, 84% des poulets sont élevés en bâtiment fermé sans accès à l’extérieur.
-
-50% des poulets consommés en France sont importés.
 
 ## Sélection génétique et naissance
 
@@ -23,8 +21,9 @@ Ceux jugés plus faibles sont triés et broyés vivants ou gazés.
 Les poussins âgés d’un jour sont transportés en camion sans eau ni nourriture vers leur lieu d’élevage et n’en sortiront plus avant leur abattage.
 
 
-## Labels et conditions d’élevage
+## Conditions d’élevage
 
+<!--
 ||Label Standard|Certifié|Label Rouge & Bio|
 -|-|-|-
 Pourcentage | 72% | 7% | 14%
@@ -32,18 +31,27 @@ Pourcentage | 72% | 7% | 14%
 Espace par poulet minimum | < 1 feuille A4 | ~1 feuille A4 | < 1 feuille A3
 
 Source ANVOL [^anvol] · le label Grand Export n’est pas affiché ici car les poulets ne sont pas consommés en France.
+-->
 
-Plus de 80% des poulets élevés en France n’ont aucun accès à l’extérieur et ont moins d’une feuille A4 d’espace disponible
-[^anvol][^3].
+Plus de 80% des poulets élevés en France [^anvol][^monquotidienautrement] :
+- n’ont aucun accès à l’extérieur
+- ont moins d’une feuille A4 d’espace disponible
+- sont abattus avant d’atteindre 2 mois (un poulet sauvage peut vivre 10 ans)
 
 Le taux de mortalité durant les 35 jours dans les élevages Standard atteint quasiment 4%.
 
+Les 14% de poulets élevés en label Rouge ou Bio ont eux un accès à l’extérieur, un espace minimum à l’intérieur de moins d’une feuille A3, et sont abattus à environ 3 mois.
+
+<!-- 50% des poulets consommés en France sont importés. -->
+
+<!--
 - Période d’obscurité
 - ébequetage
-
-Note : Les conditions de naissance et d’abattage sont les mêmes peu importe les labels d’élevage
+-->
 
 ## Abattage
+
+*note: Les conditions d’abattage sont les mêmes peu importe les labels*
 
 Les poulets sont ramassés par une machine ou bien à la main en les suspendant par les pattes.
 Les ailes des poulets sont cassées lors de ce ramassage dans environ 5% des cas (Source 6).
@@ -59,23 +67,24 @@ Cette méthode dite électronarcose génère entre 1 et 8% de fractures et jusqu
 
 ## Environnement
 
-Environ 7kg d’équivalent CO2 sont émis par kilo de viande de poulet produite (4).
+Environ 7kg d’équivalent CO2 sont émis par kilo de viande de poulet produite [^agribalysepoulet].
 C’est relativement bas par rapport aux autres viandes et même par rapport à beaucoup de fromages.
 
-C’est cependant nettement plus élevé que quasiment tous les aliments végétaux puisqu’il faut 5kg de protéines végétales pour produire 1 kg de protéines de poulet (5).
+C’est cependant nettement plus élevé que quasiment tous les aliments végétaux puisqu’il faut 5kg de protéines végétales pour produire 1 kg de protéines de poulet [^mottet].
 
 ## Suppléments alimentaires
 
 
 ## Sources
 
+[^ourworldindata]: [Our World In Data - Animal Welfare - analyses des données de la FAO](https://ourworldindata.org/explorers/animal-welfare)
 [^agreste]: [Ministère de l’Agriculture - AGRESTE - Statistique agricole annuelle 2022 Chiffres définitifs](https://agreste.agriculture.gouv.fr/agreste-web/download/publication/publie/Chd2319/cd2023-19_SAA2022-D%C3%A9finitive.pdf)
 [^anvol]: [ ANVOL - Interprofession Volailles de Chair - Dossier de presse Février 2024](https://www.l214.com/wp-content/uploads/2024/03/DP_ANVOL_FEVRIER2024_val.pdf)
-- [(3) Mon Quotidien Autrement - Quel Poulet dans mon Assiette ? (2021) - Tableau des conditions des labels](https://www.monquotidienautrement.com/wp-content/uploads/2021/01/2021-quel-poulet-dans-mon-assiette.pdf)
-- [(4) ADEME - Agribalyse - Poulet éviscéré sans abats, cru](https://agribalyse.ademe.fr/app/aliments/36020#Poulet_%C3%A9visc%C3%A9r%C3%A9_sans_abats,_cru)
+[^agribalysepoulet]: [ADEME - Agribalyse - Poulet éviscéré sans abats, cru](https://agribalyse.ademe.fr/app/aliments/36020#Poulet_%C3%A9visc%C3%A9r%C3%A9_sans_abats,_cru)
+[^mottet]: [Mottet, A. et al., 2017. « Livestock: On our Plates or Eating at our Table? A New Analysis of the Feed/Food Debate », Global Food Security, vol. 14, 104 p. (p. 1-8).](https://www.sciencedirect.com/science/article/abs/pii/S2211912416300013)
+[^monquotidienautrement]: [Mon Quotidien Autrement - Quel Poulet dans mon Assiette ? (2021) - Tableau des conditions des labels](https://www.monquotidienautrement.com/wp-content/uploads/2021/01/2021-quel-poulet-dans-mon-assiette.pdf)
 
-- [(5) Mottet, A. et al., 2017. « Livestock: On our Plates or Eating at our Table? A New Analysis of the Feed/Food Debate », Global Food Security, vol. 14, 104 p. (p. 1-8).](https://www.sciencedirect.com/science/article/abs/pii/S2211912416300013)
-
+<!--
 - [(6) Journal Paysan breton - Hebdomadaire technique agricole - Réduire le taux d’ailes cassées à l’abattoir](https://www.paysan-breton.fr/2022/04/reduire-le-taux-dailes-cassees-a-labattoir)
-
 - [(7)  European Food Safety Authority (EFSA), 2014 « Scientific Opinion on Electrical Requirements for Poultry Waterbath Stunning Equipment », EFSA Journal, vol. 12 n° 7, 18 p.](https://efsa.onlinelibrary.wiley.com/doi/pdf/10.2903/j.efsa.2014.3745)
+-->

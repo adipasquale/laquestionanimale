@@ -1,7 +1,8 @@
 ---
 date: 2024-03-21
 eleventyNavigation:
-  key: La sentience
+  title: La sentience
+  key: sentience
   parent: ethique
 ---
 

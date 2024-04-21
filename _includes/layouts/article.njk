@@ -17,6 +17,11 @@ layout: layouts/base.njk
 
 <hr>
 <hr>
+  <div class="post-metadata" style="font-style: italic;">
+    page mise à jour le <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
+  </div>
+<hr>
+<hr>
 
 {% if children | length %}
   <h2>Contenus enfants</h2>
@@ -27,4 +32,9 @@ layout: layouts/base.njk
 {% else %}
   <h2>Navigation</h2>
 {% endif %}
+
+<h2>Navigation</h2>
+
 {% include "breadcrumbs.njk" %}
+
+<a href="/">Retour à l'accueil</a>

@@ -4,7 +4,9 @@ eleventyNavigation:
   key: poules-pondeuses
   title: Les poules pondeuses 🐔
   parent: condition-animale-par-espece
+  order: 10
 ---
 
-ℹ️ Cette page évoque les poules pondeuses, une autre page évoque les poulets élevés pour leur viande.
+ℹ️ On parle ici des poules pondeuses, pas des [poulets élevés pour leur viande](/condition-animale/espèces/poulets).
 
+🖊️ page en cours de rédaction

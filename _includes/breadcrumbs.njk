@@ -1,6 +1,5 @@
 <div class="breadcrumbs">
   <div>Fil d’ariane :</div>
-  <div><a href="/">Accueil</a> ></div>
   {%- set crumbs = collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key, {allowMissing: true }) %}
   {% if crumbs | length %}
     {{ collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key, {allowMissing: true }) | eleventyNavigationToHtml | safe }}

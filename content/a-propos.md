@@ -1,11 +1,11 @@
 ---
 layout: layouts/base.njk
 eleventyNavigation:
+  title: A propos
   key: A propos
-  order: 3
-tags:
-  - topLevelPages
+  order: 10
 ---
+
 # A propos
 
-En construction
+🖊️ page en cours de rédaction

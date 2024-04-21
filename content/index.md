@@ -3,9 +3,6 @@ layout: layouts/accueil.njk
 eleventyNavigation:
   key: Accueil
   order: 1
-numberOfLatestPostsToShow: 3
-tags:
-  - topLevelPages
 ---
 
 Chaque année en France nous pêchons plus de 2 milliards de poissons sauvages, et élevons et abattons près d’un milliard d’animaux dont près de 80% de poulets.

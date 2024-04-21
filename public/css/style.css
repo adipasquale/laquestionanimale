@@ -135,7 +135,7 @@ footer p a:not([href^="/"]):not([href^="#"])::after {
 .breadcrumbs {
   display: flex;
   gap: .5rem;
-  font-size: 0.9rem;
+  /* font-size: 0.9rem; */
 
   ul {
     list-style: none;
