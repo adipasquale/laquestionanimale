@@ -23,7 +23,7 @@ module.exports = function (eleventyConfig) {
 	// https://www.11ty.dev/docs/watch-serve/#add-your-own-watch-targets
 
 	// Watch content images for the image pipeline.
-	eleventyConfig.addWatchTarget("content/**/*.{svg,webp,png,jpeg}");
+	eleventyConfig.addWatchTarget("11ty_input/**/*.{svg,webp,png,jpeg}");
 
 	// App plugins
 	eleventyConfig.addPlugin(pluginDrafts);
@@ -124,10 +124,11 @@ module.exports = function (eleventyConfig) {
 
 		// These are all optional:
 		dir: {
-			input: "content",          // default: "."
+			input: "11ty_input",
+			output: "11ty_output",
 			includes: "../_includes",  // default: "_includes"
-			data: "../_data",          // default: "_data"
-			output: "_site"
+			data: "../_data"          // default: "_data"
+
 		},
 
 		// -----------------------------------------------------------------
