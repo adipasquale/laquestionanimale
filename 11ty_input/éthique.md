@@ -3,8 +3,13 @@ date: 2024-03-21
 eleventyNavigation:
   key: ethique
   title: L’éthique
-  order: 2
+  order: 4
 ---
+
+## Approches philosophiques
+
+Matérialisme
+Utilitarisme
 
 ## Le spécisme et l’anti spécisme
 
@@ -49,3 +54,20 @@ La proximité biologique pourrait aussi devenir un critère pour justifier le se
 Les antispécistes pensent qu’il n’est jamais moralement acceptable de faire primer des intérêts humains secondaires sur des intérêts animaux fondamentaux.
 Il est donc immoral pour une mère de voler la nourriture d’un autre enfant pour la donner au sien, tout comme il est immoral de tuer un animal pour le plaisir de le manger.
 
+## Le langage
+
+Notre langage contribue à la normalisation et l’acceptabilité de l’exploitation animale.
+
+On utilise des termes différents pour parler de concepts identiques chez les humains et les non-humains.
+Par exemple on dit « abattage » pour les animaux non-humains et « meurtre » pour les humains, ou encore « être enceinte » mais « être gestante ».
+
+Les noms d’animaux sont quasiment toujours utilisés pour dévaloriser.
+Par exemple tous les « noms d’oiseaux » sont des insultes
+
+Notre langage a aussi complètement normalisé l'euphémisation des violences envers les non-humains par exemple lorsqu’on parle de bien-être animal pour parler de conditions de vie déplorables, ou de « viande » pour parler de cadavres, de « cuir » pour parler de peau, de « soins » pour parler de mutilations.
+
+## Carnisme
+
+les 4N : Nice, Necessary, Natural, Normal
+
+## Limites de l’humanisme

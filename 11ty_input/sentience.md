@@ -6,4 +6,7 @@ eleventyNavigation:
   parent: ethique
 ---
 
+Les plantes sont-elles sentientes ?
+
 - y-a-t’il des degrés de sentience ?
+

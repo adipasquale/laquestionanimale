@@ -1,10 +1,9 @@
 ---
-title: La condition animale par espèce
 date: 2024-03-21
 eleventyNavigation:
   key: condition-animale-par-espece
-  title: Par espèce
-  parent: condition-animale
+  title: La condition animale par espèce en France
+  order: 3
 ---
 
 Chaque année en France nous élevons et abattons près d’un milliard d’animaux dont près de 80% de poulets et 10% de poissons. [^ourworldindata]

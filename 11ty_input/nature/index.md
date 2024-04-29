@@ -21,9 +21,9 @@ L’homme est omnivore, et le régime végétalien est adapté.
 ## Le régime végétalien est aussi naturel qu’un autre
 
 
-
 ## La nature n’est pas figée
 
 Ce que nous jugeons naturel aujourd’hui n’est pas ce qu’on jugeait naturel il y a longtemps.
 C’est une notion arbitraire et subjective.
 
+## La prédation

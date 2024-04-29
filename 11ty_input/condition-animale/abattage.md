@@ -1,7 +1,7 @@
 ---
 date: 2024-03-21
 eleventyNavigation:
-  title: Abattage
+  title: L’abattage
   key: abattage
   parent: condition-animale
 ---

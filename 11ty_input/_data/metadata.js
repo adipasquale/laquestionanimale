@@ -1,8 +1,8 @@
 module.exports = {
-	title: "Droits des animaux",
-	url: "https://animaux.s321.top",
+	title: "La question animale",
+	url: "https://www.laquestionanimale.fr",
 	language: "fr",
-	description: "Les droits des animaux",
+	description: "La question animale",
 	author: {
 		name: "Adrien Di Pasquale",
 		email: "adrien@dipasquale.fr",

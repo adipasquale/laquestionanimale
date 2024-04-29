@@ -28,3 +28,4 @@ Les poules pondeuses sont abattues après 18 mois de ponte en moyenne. Or, la mo
 
 Les marques sur les œufs permettent de connaître les conditions d’élevage des poules pondeuses.
 C’est une exception dans le secteur de l’élevage, où les informations sont souvent cachées aux consommateurs.
+Les poules sauvages ont un comportement
