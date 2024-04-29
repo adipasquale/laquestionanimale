@@ -20,6 +20,9 @@ Ceux jugés plus faibles sont triés et broyés vivants ou gazés.
 
 Les poussins âgés d’un jour sont transportés en camion sans eau ni nourriture vers leur lieu d’élevage et n’en sortiront plus avant leur abattage.
 
+Le bec des poussins est généralement coupé pour éviter qu’ils ne se blessent entre eux.
+Le bec est un organe sensible, la douleur est plus comparable à la coupe d’un doigt que d’un ongle.
+<!-- Cette mutilation se fait à vif et sans anesthésie (source ?). -->
 
 ## Conditions d’élevage
 

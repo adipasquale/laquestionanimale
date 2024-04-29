@@ -24,7 +24,7 @@ Parmi ce quasi milliard d’animaux élevés et abattus chaque année en France,
 Quasiment tous les animaux élevés aujourd’hui résultent d’une longue sélection génétique optimisée pour augmenter la quantité de viande et diminuer les coûts d’élevage.
 Ces animaux ont une espérance de vie nettement inférieure aux espèces sauvages et sont souvent incapables de se reproduire.
 
-Environ 70% des animaux en France subissent un élevage intensif : ils n’ont aucun accès à l’extérieur et ont peu d’espace [^l214souffrance]. Quasiment tous les lapins, plus de 95% des cochons et des dindes et 84% des poulets sont élevés dans ces conditions intensives.
+Environ 70% des animaux en France n’ont aucun accès à l’extérieur et ont peu d’espace [^l214souffrance]. Quasiment tous les lapins, plus de 95% des cochons et des dindes et 84% des poulets sont élevés dans ces conditions intensives.
 
 Lors de l’abattage et du transport, les animaux subissent énormément de stress et de peur.
 Les animaux sont fréquemment pendus par les pieds, dépecés et abattus alors qu’ils sont encore conscients.
