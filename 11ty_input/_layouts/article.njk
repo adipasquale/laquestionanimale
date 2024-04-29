@@ -4,37 +4,14 @@ layout: default
 
 <h1>{{ eleventyNavigation.title }}</h1>
 
-{% from "table_of_contents.njk" import renderNavListItem %}
-
-{# {{ eleventyNavigation.key }} #}
-
-{# {{ key }} #}
-
 {{ content | safe }}
 
-
-{%- set children = collections.all | eleventyNavigation(eleventyNavigation.key) %}
-
-<hr>
-<hr>
-  <div class="post-metadata" style="font-style: italic;">
-    page mise à jour le <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
-  </div>
-<hr>
 <hr>
 
-{% if children | length %}
-  <h2>Contenus enfants</h2>
-  {% set navPages = collections.all | eleventyNavigation(eleventyNavigation.key) %}
-  <ul>
-    {%- for entry in navPages %}{{ renderNavListItem(entry) }}{%- endfor -%}
-  </ul>
-{% else %}
-  <h2>Navigation</h2>
-{% endif %}
+<div class="post-metadata">
+  page mise à jour le <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
+</div>
 
-<h2>Navigation</h2>
-
-{% include "breadcrumbs.njk" %}
-
-<a href="/">Retour à l'accueil</a>
+<button class="js-scroll-to-top">
+  Remonter en haut de la page ⤴️
+</button>

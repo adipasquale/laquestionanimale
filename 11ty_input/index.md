@@ -1,5 +1,4 @@
 ---
-layout: accueil
 eleventyNavigation:
   key: Accueil
   order: 1

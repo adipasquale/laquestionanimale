@@ -16,7 +16,7 @@ module.exports = function (eleventyConfig) {
 	// For example, `./public/css/` ends up in `_site/css/`
 	eleventyConfig.addPassthroughCopy({
 		"./public/": "/",
-		"./node_modules/prismjs/themes/prism-okaidia.css": "/css/prism-okaidia.css"
+		"./11ty_input/js/": "/js/",
 	});
 
 	// Run Eleventy when these files change:
@@ -24,6 +24,7 @@ module.exports = function (eleventyConfig) {
 
 	// Watch content images for the image pipeline.
 	eleventyConfig.addWatchTarget("11ty_input/**/*.{svg,webp,png,jpeg}");
+	eleventyConfig.addWatchTarget("11ty_input/js/*.js");
 
 	// App plugins
 	eleventyConfig.addPlugin(pluginDrafts);

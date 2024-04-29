@@ -1,3 +1,22 @@
+{% set navPages = collections.all | eleventyNavigation %}
+
+{% macro renderNavListItem(entry) -%}
+  {%- set current = entry.url == page.url %}
+  <li class="toc-item{% if current %} current{% endif %}">
+		{%- if current -%}
+    	{{ entry.title }}
+		{%- else -%}
+    	<a href="{{ entry.url }}">{{ entry.title }}</a>
+		{%- endif -%}
+    {%- if entry.children.length -%}
+      <ul>
+        {%- for child in entry.children %}{{ renderNavListItem(child) }}{% endfor -%}
+      </ul>
+    {%- endif -%}
+  </li>
+{%- endmacro %}
+
+
 <!doctype html>
 <html lang="{{ metadata.language }}">
 	<head>
@@ -11,35 +30,38 @@
 
 		<meta name="generator" content="{{ eleventy.generator }}">
 
-		<link rel="stylesheet" href="/css/new.css">
-		<link rel="stylesheet" href="/css/style.css">
+		<link rel="stylesheet" href="/css/new-custom.css">
+		<script src="/js/main.js" defer></script>
 	</head>
 	<body>
 
 		<header>
 			<div class="row">
-				<a href="#skip" class="visually-hidden">Aller au contenu principal</a>
-				<h1>{{ metadata.title }}</h1>
-				<h2 class="visually-hidden">Menu principal</h2>
-				<nav>
-					{%- for entry in collections.topLevelPages | eleventyNavigation %}
-						{% if entry.url == page.url %}
-							<span>{{entry.title}}</span>
-						{% else %}
-							<a href="{{ entry.url }}">
-								{{ entry.title }}
-							</a>
-						{% endif %}
-					{%- endfor %}
-				</nav>
+				<h1>
+					<a href="/">{{ metadata.title }}</a>
+				</h1>
+				<div class="sm:hidden">
+					<button class="js-menu-toggle">☰ Menu</button>
+				</div>
 			</div>
-			{% if page.url != "/" %}
-				{% include "breadcrumbs.njk" %}
-			{% endif %}
+			<div class="menu js-menu">
+				<ul>
+					{%- for entry in navPages %}{{ renderNavListItem(entry) }}{%- endfor -%}
+				</ul>
+			</div>
 		</header>
 
-		<main id="skip">
-			{{ content | safe }}
+		<main>
+			<div class="sidebar-col">
+				<div class="sidebar">
+					<ul>
+						{%- for entry in navPages %}{{ renderNavListItem(entry) }}{%- endfor -%}
+					</ul>
+				</div>
+			</div>
+			<div class="main-col">
+				{{ content | safe }}
+			</div>
 		</main>
 
 		<footer></footer>

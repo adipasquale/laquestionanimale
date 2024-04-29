@@ -20,11 +20,14 @@
 	--nc-d-bg-1: #000000;
 	--nc-d-bg-2: #111111;
 	--nc-d-bg-3: #222222;
-	--nc-d-lk-1: #3291FF;
-	--nc-d-lk-2: #0070F3;
+	--nc-d-lk-1: #FFD845;
+	--nc-d-lk-2: #e0b002;
 	--nc-d-lk-tx: #FFFFFF;
 	--nc-d-ac-1: #7928CA;
 	--nc-d-ac-tx: #FFFFFF;
+
+	/* breakpoints */
+	--breakpoint-sm: 640px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -87,11 +90,17 @@ html,input,select,button {
 	font-family: var(--nc-font-sans);
 }
 
+/* GENERAL LAYOUT */
+
 body {
 	/* Center body in page */
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
 	margin: 0 auto;
-	max-width: 750px;
+	max-width: 1000px;
 	padding: 2rem;
+  padding-bottom: 0;
 	border-radius: 6px;
 	overflow-x: hidden;
 	word-break: break-word;
@@ -102,7 +111,90 @@ body {
 	color: var(--nc-tx-2);
 	font-size: 1.03rem;
 	line-height: 1.5;
+
+  /* force footer to stay at the bottom */
+  min-height: 101dvh;
+  main {
+    flex: 1;
+  }
 }
+
+header {
+	background: var(--nc-bg-2);
+	border-bottom: 1px solid var(--nc-bg-3);
+	padding: 2rem 1.5rem;
+
+	/* This sets the right and left margins to cancel out the body's margins. It's width is still the same, but the background stretches across the page's width. */
+	margin: -2rem calc(50% - 50vw) 2rem;
+
+	padding-left: calc(50vw - 50%);
+	padding-right: calc(50vw - 50%);
+
+  h1 {
+		margin: 0;
+		padding: 0;
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+  }
+
+	.row {
+		display: flex;
+		gap: 2rem;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+}
+
+header > *:first-child {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+header > *:last-child {
+	margin-bottom: 0;
+}
+
+.sidebar-col {
+	display: none;
+}
+
+@media (min-width: 800px) {
+	main {
+		display: flex;
+		gap: 1rem;
+
+		.sidebar-col {
+			display: block;
+			width: 15rem;
+			flex-shrink: 0;
+
+			.sidebar {
+				position: sticky;
+				top: 2rem;
+				max-height: calc(100vh - 4rem);
+
+				ul {
+					list-style-type: none;
+					padding: 0;
+					margin: 0;
+
+					ul {
+						padding-left: .8rem;
+					}
+					li.active a{
+						/* color: var(--nc-ac-1); */
+						cursor: default;
+						border-bottom: 0;
+					}
+				}
+			}
+		}
+	}
+}
+
+/* TYPOGRAPHY */
 
 ::selection {
 	/* Set background color for selected text */
@@ -131,29 +223,12 @@ h6 {
 	margin-bottom: .3rem;
 }
 
-h1 {
-	font-size: 2.25rem;
-}
-
-h2 {
-	font-size: 1.85rem;
-}
-
-h3 {
-	font-size: 1.55rem;
-}
-
-h4 {
-	font-size: 1.25rem;
-}
-
-h5 {
-	font-size: 1rem;
-}
-
-h6 {
-	font-size: .875rem;
-}
+h1 { font-size: 1.3rem; }
+h2 { font-size: 1.2rem; }
+h3 { font-size: 1.1rem; }
+h4 { font-size: 1rem; }
+h5 { font-size: 1rem; }
+h6 { font-size: 1rem; }
 
 a {
 	color: var(--nc-lk-1);
@@ -183,43 +258,6 @@ blockquote *:last-child {
 	margin-bottom: 0;
 }
 
-header {
-	background: var(--nc-bg-2);
-	border-bottom: 1px solid var(--nc-bg-3);
-	padding: 2rem 1.5rem;
-	
-	/* This sets the right and left margins to cancel out the body's margins. It's width is still the same, but the background stretches across the page's width. */
-
-	margin: -2rem calc(50% - 50vw) 2rem;
-
-	/* Shorthand for:
-
-	margin-top: -2rem;
-	margin-bottom: 2rem;
-
-	margin-left: calc(50% - 50vw);
-	margin-right: calc(50% - 50vw); */
-
-	padding-left: calc(50vw - 50%);
-	padding-right: calc(50vw - 50%);
-}
-
-header h1,
-header h2,
-header h3 {
-	padding-bottom: 0;
-	border-bottom: 0;
-}
-
-header > *:first-child {
-	margin-top: 0;
-	padding-top: 0;
-}
-
-header > *:last-child {
-	margin-bottom: 0;
-}
-
 a button,
 button,
 input[type="submit"],
@@ -232,12 +270,11 @@ input[type="button"] {
 	text-decoration: none;
 	white-space: nowrap;
 	background: var(--nc-lk-1);
-	color: var(--nc-lk-tx);
+	color: var(--nc-bg-1);
 	border: 0;
 	border-radius: 4px;
 	box-sizing: border-box;
 	cursor: pointer;
-	color: var(--nc-lk-tx);
 }
 
 a button[disabled],
@@ -448,4 +485,104 @@ input {
 
 img {
 	max-width: 100%;
+}
+
+
+
+/* FOOTER */
+
+footer {
+  margin: 4rem calc(50% - 50vw) 0;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: calc(50vw - 50%);
+  padding-right: calc(50vw - 50%);;
+  background-color: var(--nc-bg-2);
+	border-top: 1px solid var(--nc-bg-3);
+
+  nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    flex-wrap: wrap;
+
+    a {
+      flex-shrink: 0;
+      display: flex;
+      gap: .5rem;
+      align-items: center;
+    }
+
+    svg {
+      fill: rgb(99, 99, 99);
+      width: 20px;
+      vertical-align: middle;
+
+      @media (prefers-color-scheme: dark) {
+        fill: rgb(216, 216, 216);
+      }
+    }
+  }
+}
+
+/* UTILITIES */
+
+mark {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  padding: 0 .2rem;
+
+  svg {
+    height: .8rem;
+  }
+}
+
+main a:not([href^="/"]):not([href^="#"])::after,
+footer p a:not([href^="/"]):not([href^="#"])::after {
+  content: ' ↗';
+  display: inline;
+}
+
+/* specific to eleventy blog template */
+
+.post-metadata {
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.links-nextprev {
+  margin-top: 4rem;
+}
+
+/* MERMAID GRAPHS */
+
+@media (prefers-color-scheme: dark) {
+  .mermaid svg text {
+    fill: white !important;
+  }
+}
+
+/* Responsive Menu */
+
+.menu {
+	display: none;
+}
+.menu.active {
+	display: block;
+}
+
+/* RESPONSIVE UTILITIES */
+
+.hidden {
+	display: none;
+}
+
+@media (min-width: 800px) {
+	.sm\:hidden {
+		display: none;
+	}
 }
