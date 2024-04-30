@@ -6,6 +6,9 @@ eleventyNavigation:
   order: 3
 ---
 
+🖊️ page en cours de rédaction
+
+<!--
 ## Différence entre nature et état sauvage
 
 L’état sauvage peut être défini comme
@@ -27,3 +30,4 @@ Ce que nous jugeons naturel aujourd’hui n’est pas ce qu’on jugeait naturel
 C’est une notion arbitraire et subjective.
 
 ## La prédation
+-->

@@ -547,6 +547,10 @@ footer p a:not([href^="/"]):not([href^="#"])::after {
   display: inline;
 }
 
+a[href^="#"] {
+	color: inherit;
+}
+
 /* specific to eleventy blog template */
 
 .post-metadata {

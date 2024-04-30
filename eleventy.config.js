@@ -83,16 +83,16 @@ module.exports = function (eleventyConfig) {
 	// Customize Markdown library settings:
 	eleventyConfig.amendLibrary("md", mdLib => {
 		mdLib.use(markdownItFootnote);
-		mdLib.use(markdownItAnchor, {
-			permalink: markdownItAnchor.permalink.ariaHidden({
-				placement: "after",
-				class: "header-anchor",
-				symbol: "#",
-				ariaHidden: false,
-			}),
-			level: [1, 2, 3, 4],
-			slugify: eleventyConfig.getFilter("slugify")
-		});
+		// mdLib.use(markdownItAnchor, {
+		// 	permalink: markdownItAnchor.permalink.ariaHidden({
+		// 		placement: "after",
+		// 		class: "header-anchor",
+		// 		symbol: "#",
+		// 		ariaHidden: false,
+		// 	}),
+		// 	level: [1, 2, 3, 4],
+		// 	slugify: eleventyConfig.getFilter("slugify")
+		// });
 	});
 
 	eleventyConfig.addShortcode("currentBuildDate", () => {
