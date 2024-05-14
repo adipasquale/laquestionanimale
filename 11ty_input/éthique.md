@@ -6,10 +6,19 @@ eleventyNavigation:
   order: 4
 ---
 
-## Approches philosophiques
+## Moralité
 
-Matérialisme
-Utilitarisme
+Les « agents moraux » sont les individus qui peuvent juger de la moralité de leurs actions, donc ils peuvent être tenus responsables d’infliger de la souffrance à d’autres individus.
+Les « patients moraux » sont les individus qui peuvent vivre des expériences positives ou négatives, donc subir des actions bonnes ou malveillantes.
+
+Les êtres humains sont à la fois des agents et des patients moraux.
+
+## Approches philosophiques et éthiques
+
+- Approche de l’éthique de la vertu : que ferait personne vertueuse ?
+- L’approche déontologie : comment respecter au mieux les règles morales et les droits ?
+- L’approche conséquentialiste / utilitariste : comment maximiser le bien-être et minimiser la souffrance de tous les individus ?
+- Le matérialisme analyse les rapports entre les groupes sociaux via leurs conditions matérielles d'existence cf plus bas
 
 ## Le spécisme et l’anti spécisme
 
@@ -42,6 +51,7 @@ Il n’est pas possible de trouver une caractéristique qui justifierait le trai
 Les antispécistes ne souhaitent pas traiter également tous les animaux et les humains, mais de traiter également des individus ayant des intérêts similaires, peu importe leur espèce.
 
 Les poules n’ont donc aucun intérêt à pouvoir voter, mais ont un intérêt à ne pas souffrir inutilement.
+
 <!-- En revanche, les plantes ne ressentent pas la douleur, donc elles n’ont pas d’intérêt à ne pas souffrir. -->
 
 ## Le traitement préférentiel des proches
@@ -66,8 +76,26 @@ Par exemple tous les « noms d’oiseaux » sont des insultes
 
 Notre langage a aussi complètement normalisé l'euphémisation des violences envers les non-humains par exemple lorsqu’on parle de bien-être animal pour parler de conditions de vie déplorables, ou de « viande » pour parler de cadavres, de « cuir » pour parler de peau, de « soins » pour parler de mutilations.
 
-## Carnisme
-
-les 4N : Nice, Necessary, Natural, Normal
-
 ## Limites de l’humanisme
+
+De nombreux antispécistes rejettent l’humanisme qui peut être vu comme un suprémacisme humain, une organisation sociale où les humains ont des privilèges sur le reste des animaux.
+
+Ce qui est contesté ne sont pas les droits humains et la validité de lutter pour leur extension, mais le fait que ces droits ne soient pas partagés avec les autres animaux.
+
+Le sentientisme est un idéal universaliste plus juste que l’humanisme : il inclut tous les êtres qui ont des intérêts personnels et pas uniquement les humains.
+
+L’humanisme peut être comparé à l’androcentrisme qui considère le masculin comme l’universel. [^cupdeaxelle1]
+
+> « L'inclusion des animaux dans notre champ de considération morale et politique ne pourra se faire sans une remise en question de l'humanisme comme monopole illégitime de l'universel. »
+> 
+> Axelle Playoust-Braure & Yves Bonnardel
+> Solidarité animale
+
+## Le matérialisme
+
+La perspective matérialiste considère que la société est formée de classes sociales aux intérêts opposés, où les individus humanisés possèdent et exploitent des individus animalisés. 
+Les classes sociales des humanisés et des animalisés ne sont pas des groupes fixes, définis biologiquement, mais le résultat de rapports de pouvoir qui changent selon l’époque et le lieu.
+L'idéologie spéciste qui essentialise et différencie ces classes légitime cette exploitation. 
+Pour lutter efficacement contre les rapports de classe, il faut s'attaquer aux structures concrètes de la société qui déterminent le pouvoir, plutôt que de se concentrer uniquement sur la critique de l'idéologie. [^cupdeaxelle1]
+
+[^cupdeaxelle1]: [Épisode 9 du podcast Comme un poisson dans l’eau](https://commeunpoissondansleau.s321.top/episodes/09-le-specisme-c-est-pas-que-dans-la-tete-axelle-playoust-braure/) - Le spécisme, c'est pas (que) dans la tête ! avec Axelle Playoust-Braure

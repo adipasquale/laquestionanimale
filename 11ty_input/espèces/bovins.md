@@ -43,7 +43,7 @@ Pour qu’elles donnent du lait en permanence, les vaches sont inséminées arti
 Leur gestation dure 9 mois.
 La quasi totalité des veaux nés ainsi sont séparés de leur mères moins de 36h après la naissance.
 Cela peut causer de grandes détresses chez les mères et les veaux.
-La majeure partie des veaux femelles sont conservés pour renouveller le troupeau laitier tandis que la majorité des mâles sont vendus à des éleveurs de veaux « de boucherie » (voir plus bas).
+La majeure partie des veaux femelles sont conservés pour renouveler le troupeau laitier tandis que la majorité des mâles sont vendus à des éleveurs de veaux « de boucherie » (voir plus bas).
 
 La haute fréquence de traite cause souvent des infections des pis et on donne aux vaches des antibiotiques qui se retrouvent dans le lait et la viande.
 
@@ -53,7 +53,6 @@ On abat près d’1 million de vaches laitières « réformées » chaque année
 Leur viande est généralement utilisée pour des produits transformés comme des steaks hachés.
 
 > « Un verre de lait contient plus de souffrance qu’un steak » (source ?)
-
 
 ## Les veaux « de boucherie » et les vaches nourrices
 
@@ -81,7 +80,6 @@ La majorité des humains sur terre sont intolérants au lactose, donc on y ajout
 
 La viande de veau n’est consommée que dans quelques pays d’Europe, c’est très rare dans le reste du monde.
 
-
 ## Abattage des bovins
 
 A rédiger
@@ -95,12 +93,12 @@ environ 3% des vaches laitières sont en fin de gestation quand elles arrivent �
 
 <!-- > l'abattage des vaches gestantes avec les suites, c'est-à-dire ces poches, ces utérus en fait, qu'on ouvre, dans lesquelles il y a des veaux qui sont parfois prêts à naître, et on va ponctionner directement dans leur cœur par une épine, par une aiguille, le liquide qui va être le sérum fétal bovin, qui va être utilisé après dans l'industrie pharmaceutique par ailleurs. Donc là, on voit en fait sur les images ce prélèvement, et comment on plie, comme quand vous videz un matelas pneumatique de son air, comment l'animal est plié dans tous les sens de façon à essayer de récupérer le plus possible de ce sérum pour lequel il existe des alternatives aujourd'hui, y compris des alternatives végétales. -->
 
-
 [^agreste]: [Statistique agricole annuelle 2022](https://agreste.agriculture.gouv.fr/agreste-web/download/publication/publie/Chd2319/cd2023-19_SAA2022-D%C3%A9finitive.pdf) - Agreste - Ministère de l’Agriculture
 
 [^agribienetrevaches]: [Le bien-être et la protection des vaches à viande](https://agriculture.gouv.fr/le-bien-etre-et-la-protection-des-vaches-viande) - Ministère de l’Agriculture
-[^agribienetreveaux]: [Le bien-être et la protection des veaux](https://agriculture.gouv.fr/le-bien-etre-et-la-protection-des-veaux) - Ministère de l’Agriculture
 
 [^culturegenerale]: [Bœuf, taureau, vache, génisse, veau : quelle différence ?](https://www.laculturegenerale.com/difference-boeuf-taureau-vache-genisse-veau/) - La Culture Générale
 
 [^inao]: [Chiffres Clés 2021 - Viandes, charcuteries et volailles sous signe de la qualité et de l’origine.](https://www.inao.gouv.fr/content/download/4543/39117/version/2/file/INAO-CHIFFRES-CL%C3%89S-VIANDES-2021%20-%20WEB.pdf) - Institut National de l'Origine et de la Qualité
+
+[^agribienetreveaux]: [Le bien-être et la protection des veaux](https://agriculture.gouv.fr/le-bien-etre-et-la-protection-des-veaux) - Ministère de l’Agriculture
