@@ -1,4 +1,7 @@
 {% set navPages = collections.all | eleventyNavigation %}
+<script>
+	console.log({{ navPages | dump | safe }});
+</script>
 
 {% macro renderNavListItem(entry) -%}
   {%- set current = entry.url == page.url %}

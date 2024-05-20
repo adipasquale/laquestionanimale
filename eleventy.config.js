@@ -80,6 +80,31 @@ module.exports = function (eleventyConfig) {
 		return (tags || []).filter(tag => ["all", "nav", "post", "posts"].indexOf(tag) === -1);
 	});
 
+	eleventyConfig.addFilter("getNextNavItem", (navItems, parentNavItems, childrenItems, currentPage) => {
+		if (!navItems || !currentPage || !parentNavItems) return null;
+		if (childrenItems && childrenItems.length > 0) {
+			return childrenItems[0];
+		}
+		let currentIdx = navItems.findIndex(i => i.key === currentPage.key);
+		let nextIdx = currentIdx + 1;
+		if (nextIdx >= navItems.length) {
+			let parentIdx = parentNavItems.findIndex(i => i.key === currentPage.parent);
+			nextIdx = parentIdx + 1;
+			if (nextIdx >= parentNavItems.length) return null;
+			return parentNavItems[nextIdx];
+		};
+		return navItems[nextIdx];
+	});
+
+	eleventyConfig.addFilter("getPreviousNavItem", (navItems, parentNavItems, currentPage) => {
+		if (!navItems || !currentPage || !parentNavItems) return null;
+		let currentIdx = navItems.findIndex(i => i.key === currentPage.key);
+		let nextIdx = currentIdx - 1;
+		if (nextIdx < 0)
+			return parentNavItems.find(i => i.key === currentPage.parent)
+		return navItems[nextIdx];
+	});
+
 	// Customize Markdown library settings:
 	eleventyConfig.amendLibrary("md", mdLib => {
 		mdLib.use(markdownItFootnote);

@@ -1,5 +1,4 @@
 ---
-layout: default
 eleventyNavigation:
   title: Écologie
   key: ecologie

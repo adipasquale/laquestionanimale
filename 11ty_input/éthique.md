@@ -34,7 +34,7 @@ Les antispécistes pensent que des critères plus pertinents pour décider comme
 
 Le spécisme est comparable au racisme ou au sexisme : il implique un traitement désavantageux de certains individus sur la base d’un critère arbitraire et sans lien avec le traitement.
 
-Le spécisme peut aussi être vu comme systémique : il est très intégré dans les institutions et les normes sociales, et il est très difficile de s’en défaire.
+Le spécisme est systémique : il est très intégré dans les institutions et les normes sociales, et il est très difficile de s’en défaire.
 
 ## Les pseudo-spécismes
 

@@ -8,10 +8,32 @@ layout: default
 
 <hr>
 
+{%- set navItems = collections.all | eleventyNavigation(eleventyNavigation.parent) %}
+{%- set rootNavItems = collections.all | eleventyNavigation %}
+{%- set childrenItems = collections.all | eleventyNavigation(eleventyNavigation.key) %}
+{%- set previousNavItem = navItems | getPreviousNavItem(rootNavItems, eleventyNavigation) %}
+{%- set nextNavItem = navItems | getNextNavItem(rootNavItems, childrenItems, eleventyNavigation) %}
+
+{%- if previousNavItem or nextNavItem %}
+<ul class="links-nextprev">
+  {%- if previousNavItem %}
+    <li>
+      Page précédente
+      <br>
+      <a href="{{ previousNavItem.url }}">{{ previousNavItem.title }}</a>
+    </li>
+  {% endif %}
+  {%- if nextNavItem %}
+    <li>
+      Page suivante
+      <br>
+      <a href="{{ nextNavItem.url }}">{{ nextNavItem.title }}</a>
+    </li>
+  {% endif %}
+</ul>
+{%- endif %}
+
+
 <div class="post-metadata">
   page mise à jour le <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
 </div>
-
-<button class="js-scroll-to-top sm:hidden">
-  Remonter en haut de la page ⤴️
-</button>
